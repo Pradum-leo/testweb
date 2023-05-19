@@ -1,0 +1,54 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  background-color: black; 
+  
+}
+
+
+.navbar a {
+  border-radius: 5px;
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: lightblue;
+}
+.navbar a:hover:not(.aactive,.oactive,.hactive,.cactive) {
+  background-color:lightblue;
+}
+
+.aactive,.oactive,.hactive,.cactive {
+  background-color: red;
+}
+.same {
+  padding: 16px;
+  margin-top: 30px;
+  height: auto;
+}
+
+
+
+/* Style the header */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header span {
+  font-size: 40px;
+}
+
+
+
